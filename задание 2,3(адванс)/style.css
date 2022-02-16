@@ -1,0 +1,102 @@
+
+
+        * {
+            background-color: cornsilk;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+        display: block;
+        width: 1000px;
+        margin: 70px auto;
+      
+        }
+       
+        .box {
+            display: flex;
+            justify-content: space-between;
+            width: 700px;
+            margin: 0px auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .btn-box {
+          
+            margin-bottom: 30px;
+        }
+        .flex {
+
+            display: flex;
+            justify-content: space-around;
+        }
+        button {
+
+            background: #666;
+            border-radius: 10px;
+            border: none;
+            color: #fff;
+            font-size: 25px;
+            padding: 10px 25px;
+
+
+
+        }
+
+            ul {
+
+                font-size: 27px;
+                
+
+
+              }
+
+            
+              ul li {
+
+                list-style-type: none;
+                cursor: pointer;
+                margin-bottom: 25px;
+
+                
+
+              } 
+
+            .total {
+                text-align: right;
+                font-size: 35px;
+            }
+
+
+            .li-namee {
+                position: relative;
+                cursor: pointer;
+            }
+
+            .li-salary {
+                position: relative;
+                cursor: pointer;
+                
+
+            }
+
+            .toolTip {
+
+                position: absolute;
+                top: -90%;
+                left: 8%;
+              
+                background: #666;
+                border-radius: 8px;
+                color: #fff;
+                font-size: 17px;
+                text-align: center;
+              
+                padding: 5px 10px;
+                opacity: 0.7;
+                
+              
+            }
+

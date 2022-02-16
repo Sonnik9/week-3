@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1a</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Информация о пользователе:</h1>
+        <button>Жми тут!</button>
+        <h2></h2>
+    </div>
+    <script>
+
+        let names = prompt('Введите имя пользователя', );
+        let iD = prompt('Введите id пользователя(цыфры)', );       
+        let resulttt;
+
+        let btn = document.querySelector('button');
+        let result = document.querySelector('h2');
+
+        btn.addEventListener('click', () => returnUserInfo(names, iD));
+
+        function returnUserInfo(names, iD) {
+
+            resulttt = names + "  " + "ID#" + iD;
+            result.innerHTML = resulttt;
+
+            // alert(`${names} ${iD1}`)
+
+        }
+
+      
+
+
+
+    </script>
+</body>
+</html>

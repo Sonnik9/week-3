@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1б</title>
+    <style></style>
+</head>
+<body>
+
+    <button>Узнать среднюю зарплату</button>
+
+
+    <script>
+
+   
+     let nnaMes = prompt('ВВедите имена сотрудников через пробел', );
+     let numbers = prompt('ВВедите зарплаты через пробел', );
+
+     let arrnaMes = nnaMes.split(' '); 
+     let arrSal = numbers.split(' ');
+     
+
+     let userList =[];
+    //  {name: '', salary: 800 }, {name: '', salary: 1800}
+     let middleResult = 0;
+     let result = 0;
+     let k;
+
+     let job;
+     
+     
+     let btn = document.querySelector('button');
+     btn.addEventListener('click', salaryy);
+
+     function salaryy() {
+
+     for (k = 0; k < arrnaMes.length; k++) {
+
+        function Job(name, salary) {
+
+            this.name = name;
+            this.salary = salary;
+
+        }
+
+        job = new Job(arrnaMes[k], arrSal[k]);
+        userList[k] = job;
+
+        middleResult = (middleResult + (+userList[k].salary));
+
+        if(k == arrnaMes.length-1) {
+
+         result = middleResult/(arrnaMes.length);    
+         middleResult = 0; 
+        }
+                                    
+
+
+        
+     
+           
+        }
+         // цыкл
+
+        alert(result);
+        console.log(result);
+        console.log(userList);
+        //    console.log((userList[k].salary));
+
+        }
+        //  функция salaryy
+
+                    
+
+    </script>
+    
+</body>
+</html>

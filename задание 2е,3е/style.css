@@ -1,0 +1,111 @@
+
+
+
+         * {
+            background-color: cornsilk;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .container {
+            display: block;
+            width: 1000px;
+            margin: 70px auto;
+           
+            }
+           
+            .box {
+                display: flex;
+                
+                margin-left: 100px;
+               
+              
+            }
+    
+           .box-1 {
+                display: flex;
+              
+                margin-left: 100px;
+           }
+            h1 {
+                text-align: center;
+            }
+    
+            .btn-box {
+              
+                margin-bottom: 30px;
+            }
+            .flex {
+    
+                display: flex;
+                justify-content: space-around;
+            }
+            button {
+    
+                background: #666;
+                border-radius: 10px;
+                border: none;
+                color: #fff;
+                font-size: 25px;
+                padding: 10px 25px;
+                cursor: pointer;
+    
+    
+    
+            }
+            .wrap-box {
+    
+                width: 400px;
+                margin: 0px auto;
+            }
+    
+           
+            h2 {
+                display: flex;
+            }
+          
+            .ul {
+                display:grid;
+                font-size: 25px;
+                gap: 30px;
+                }
+            
+                .ul li {
+                  list-style: none;
+                  margin-left: -40px;
+                   }
+                .total {
+                    text-align: right;
+                    font-size: 35px;
+                }
+    
+                .unik {
+    
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+    
+    
+                .li-content {
+                    position: relative;
+                    cursor: pointer;
+                    list-style: none;
+                }
+    
+              
+                .toolTip {
+                  
+                    position: absolute;
+                    top: -90%;
+                    left: 8%;
+                    width: 85%;
+                    height: 20px;
+                    background: #666;
+                    border-radius: 8px;
+                    color: #fff;
+                    font-size: 17px;
+                    text-align: center;
+                    padding-top: 1%;
+                    opacity: 0.7;
+                }
+    
